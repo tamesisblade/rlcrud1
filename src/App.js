@@ -10,7 +10,7 @@ class  App extends Component {
     loader:false,
     customers:[],
     customer:{},
-    url:'http://localhost:8000/api/customer'
+    url:'https://lapicrud1.herokuapp.com/api/customer'
   };
   getCustomers = async () => {
     this.setState({ loader:true })
